@@ -24,10 +24,6 @@ const Login = () => {
       valid = false;
     }
 
-    // if (!password) {
-    //   formErrors.password = 'Password is required';
-    //   valid = false;
-    // }
     if (!password) {
         formErrors.password = 'Password is required';
         valid = false;

@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family:'Courier New', Courier, monospace
+  font-family:'Courier New', Courier, monospace;
 }
 
 .App-header {
@@ -8,7 +8,7 @@
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
   /* background: url(../src/components/images.jpeg); */
   background-image: cover;
-  width:100;
+  width:100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 
   box-sizing: border-box;
   text-align: center;
@@ -71,7 +71,9 @@ nav {
 
 nav a {
   margin: 0 10px;
-  color: #61dafb;
+  /* color: #61dafb; */
+  color:black;
+  font-weight: bold;
   text-decoration: none;
 }
 
